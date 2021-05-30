@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* left menu */
+
+.menu{
+    background-color: #2c4fd6;
+    left: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-right: 30px;
+    padding-bottom: 100%;
+}
+
+.menu ul li{
+    padding-bottom: 10px;
+    list-style: none;
+}
+
+.menu ul li a {
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+}
+
+.menu ul li a:hover {
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #1c2fd5;
+    color: greenyellow;
+}
+
+.sidebar{
+    color: #fff;
+    font-size: 25px;
+    text-align: center;
+    justify-content: center;
+}
+
+.main{
+    padding-left: 240px;
+}
+
+/* links */
+
+.instagram{
+    color: #2d4f;
+    text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.github{
+    color: #2d4f;
+    padding-left: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.github:hover{
+    color: black;
+    text-decoration: underline;
+}
+
+.instagram:hover{
+    color: black;
+    text-decoration: underline;
+}
